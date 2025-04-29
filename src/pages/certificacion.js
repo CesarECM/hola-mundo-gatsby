@@ -12,7 +12,8 @@ const CertificacionPage = () => {
     <main className="certificacion-page">
       <section className="hero-section">
         <div className="overlay">
-          <h1>Certificación de Competencias</h1>
+          <h1>¿Buscas certificarte? Ya sea para ti o para tu equipo, nosotros te ayudamos a lograrlo, fácil y rápido.</h1>
+          <p>¿Para quién es esta certificación?</p>
           <p>{isPersona ? "Enfocado para Personas" : "Enfocado para Empresas"}</p>
           <button onClick={handleToggle} className="toggle-button">
             {isPersona ? "Cambiar a Empresa" : "Cambiar a Persona"}
