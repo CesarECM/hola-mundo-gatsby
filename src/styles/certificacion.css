@@ -4,7 +4,7 @@
 
 .hero-section {
     height: 100vh;
-    background-image: url('/background.jpg');
+    background-image: url('/background.png');
     /* Cambia por la ruta de tu imagen */
     background-size: cover;
     background-position: center;
